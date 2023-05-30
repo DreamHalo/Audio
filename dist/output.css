@@ -672,6 +672,10 @@ video {
   height: 729px;
 }
 
+.w-\[160px\]{
+  width: 160px;
+}
+
 .w-\[350px\]{
   width: 350px;
 }
@@ -698,10 +702,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[160px\]{
-  width: 160px;
 }
 
 .cursor-pointer{
@@ -811,69 +811,16 @@ video {
   background-color: rgb(216 125 74 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#979797\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(151 151 151 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\]{
-  background-color: url;
+.bg-\[url\(\/src\/assets\/images\/bg_speaker\.png\)\]{
+  background-image: url(/src/assets/images/bg_speaker.png);
 }
 
 .bg-\[url\(\\assets\\icons\\group\.svg\)\]{
   background-image: url(\assets\icons\group.svg);
 }
 
-.bg-\[url\(\/src\/assets\/images\/bg_speaker\.png\)\]{
-  background-image: url(/src/assets/images/bg_speaker.png);
-}
-
-.bg-\[url\(\/src\/assets\/images\/\)\]{
-  background-image: url(/src/assets/images/);
-}
-
-.bg-\[url\(\/src\/assets\/images\/Bitmap\)\]{
-  background-image: url(/src/assets/images/Bitmap);
-}
-
-.bg-\[url\(\/src\/assets\/images\/Bitmap\.png\)\]{
-  background-image: url(/src/assets/images/Bitmap.png);
-}
-
-.bg-none{
-  background-image: none;
-}
-
-.bg-\[url\(\)\]{
-  background-image: url();
-}
-
-.bg-\[url\(\"\"\)\]{
-  background-image: url("");
-}
-
-.bg-\[url\(\'\'\)\]{
-  background-image: url('');
-}
-
-.bg-\[url\(\'\/src\/assets\/images\/img3\.png\'\)\]{
-  background-image: url('/src/assets/images/img3.png');
-}
-
-.bg-\[url\(\'\/src\/assets\/images\/\'\)\]{
-  background-image: url('/src/assets/images/');
-}
-
-.bg-\[url\(\'\/src\/assets\/images\/image\'\)\]{
-  background-image: url('/src/assets/images/image');
-}
-
 .bg-cover{
   background-size: cover;
-}
-
-.bg-left{
-  background-position: left;
 }
 
 .bg-center{
@@ -1104,15 +1051,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:m-auto{
-    margin: auto;
-  }
-
-  .sm\:mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .sm\:flex{
     display: flex;
   }
@@ -1129,29 +1067,12 @@ video {
     justify-content: center;
   }
 
-  .sm\:bg-\[\]{
-    background-color: ;
-  }
-
   .sm\:bg-\[url\(\/src\/assets\/images\/Bitmap_tablet\.png\)\]{
     background-image: url(/src/assets/images/Bitmap_tablet.png);
-  }
-
-  .sm\:text-center{
-    text-align: center;
   }
 }
 
 @media (min-width: 768px){
-  .md\:m-auto{
-    margin: auto;
-  }
-
-  .md\:mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:flex{
     display: flex;
   }
@@ -1163,19 +1084,11 @@ video {
   .md\:justify-center{
     justify-content: center;
   }
-
-  .md\:text-center{
-    text-align: center;
-  }
 }
 
 @media (min-width: 1024px){
   .lg\:flex{
     display: flex;
-  }
-
-  .lg\:hidden{
-    display: none;
   }
 
   .lg\:bg-none{
