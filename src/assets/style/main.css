@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+.card1 {
+    background-image: url(/src/assets/icons/group.svg);
+    background-repeat: no-repeat;
+    background-position-x: 15%;
+}
